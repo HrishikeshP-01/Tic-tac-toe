@@ -1,0 +1,54 @@
+body
+{
+    font-family: "Permanent Marker", cursive;
+}
+
+section{
+    text-align: center;
+}
+
+.game-title
+{
+    font-size: 100px;
+    color: #000000;
+    margin: 10px auto;
+}
+
+.game-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 360px;
+    margin: 10px auto;
+    background-color: #aaaeb4;
+    color: #000000;
+}
+
+.cell
+{
+    font-family:"Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #aaaeb4;
+    border: 2px solid #000000;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game-status
+{
+    font-size: 50px;
+    color: #000000;
+    margin: 20px auto;
+}
+
+.game-restart
+{
+    background-color: #aaaeb4;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #000000;
+    box-shadow: 2px 2px 2px 2px #aaaeb4;
+    border: 2px solid #000000;
+}
